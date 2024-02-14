@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+  <div>
+  <label for="name">Username</label> <br>
+  <input type="text" id="name" placeholder="Enter your username">
+  </div>
+
+<div>
+  <label for="password">password</label> <br>
+  <input type="password" id="password" placeholder="Enter Your Password">
+</div>
+  <br>
+  <div>
+    <textarea placeholder = "Enter Your message">  </textarea>
+  </div>
+  <div>
+    <label for="message">message</label><br>
+    <textarea id = "message"
+              placeholder="Enter Your message"
+              rows="10"
+              cols="50">
+
+    </textarea>
+  </div>
+  <br>
+<!--  select-->
+  <div>
+  <label for="language">Select Your Programming language</label><br>
+  <select id="language">
+    <option value="java">Java</option>
+    <option value="python">python</option>
+    <option value="c">c</option>
+    <option value="C++">C++</option>
+    <option value="C#">C#</option>
+  </select>
+  </div>
+  <br>
+<!--option groups-->
+  <div>
+    <label for="tech">Select Your Tech</label> <br>
+    <select id="tech">
+      <optgroup label="languages">
+      <option value="java">Java</option>
+      <option value="python">Python</option>
+      <option value="c">C</option>
+      <option value="c++">C++</option>
+      <option value="c#">C#</option>
+      <option value="go">GO</option>
+      </optgroup>
+
+      <optgroup label="frontEnd">
+      <option value="react">ReactJS</option>
+      <option value="next">NextJS</option>
+      <option value="angular">Angular</option>
+      <option value="vue">VueJS</option>
+      </optgroup>
+
+      <optgroup label="BackEnd">
+      <option value="spring">Spring</option>
+      <option value="spring-boot">Spring Boot</option>
+      <option value="expressjs">ExpressJS</option>
+      </optgroup>
+    </select>
+  </div>
+  <br>
+<!--Data List-->
+  <div>
+    <label for="country-search">select your country</label>
+    <input type="text" placeholder="Enter Your country" list="country" id="country-search">
+    <datalist id="country">
+      <option value="sriLanka">sriLanka</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+      <option value="Japan">japan</option>
+      <option value="Korea">Korea</option>
+      <option value="China">China</option>
+    </datalist>
+  </div>
+  <br>
+  <div>
+<fieldset>
+  <legend>select Your Gender</legend>
+  <input type="radio" id="male" name="fuck"><label for="male">male</label>
+  <input type="radio" id="female" name="fuck"><label for="female">female</label>
+</fieldset>
+  </div>
+  <br>
+<!--  Buttons-->
+  <div>
+    <button type="button">Click</button>
+    <button type="submit">submit</button>
+    <button type="reset">Reset</button>
+  </div>
+</form>
+</body>
+</html>
